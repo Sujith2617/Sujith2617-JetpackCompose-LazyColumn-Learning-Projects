@@ -1,0 +1,14 @@
+package com.example.lazycolumntext
+
+
+import androidx.lifecycle.ViewModel
+
+class LogicViewModel : ViewModel() {
+    val textList = listOf("Apple",
+        "Banana", "Cherry","Date","Fig","Grapes","Mango","Orange",
+        "Pineapple","Strawberry","Watermelon","Papaya","Guava",
+        "Kiwi","Lemon","Lime","Blueberry","Blackberry","Peach",
+        "Plum","Pomegranate","Apricot","Lychee", "Coconut", "Dragon Fruit",
+        "Avocado", "Raspberry", "Tangerine", "Melon", "Passion Fruit"
+
+}
