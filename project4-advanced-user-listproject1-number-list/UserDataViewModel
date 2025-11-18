@@ -1,0 +1,35 @@
+package com.example.listtaskb
+
+import androidx.compose.ui.graphics.Color
+import androidx.lifecycle.ViewModel
+
+class UserDataViewModel : ViewModel() {
+
+
+    val users = listOf(
+        User("Sujith", 22),
+        User("Rahul", 24),
+        User("Karthik", 21),
+        User("Meera", 23),
+        User("Ananya", 20),
+        User("Joy",21),
+        User("Virat",24),
+        User("Gill",23),
+        User("Tilak",23),
+        User("Rahul",33),
+        User("Jonny",21),
+        User("Mizo",23),
+        User("Bachu",24),
+        User("Taniya",21),
+        User("Simp",23),
+        User("Anki",26),
+        User("Sharkshi",23)
+        )
+
+
+    fun cardColours(indexNum : Int): Color = if (indexNum % 2 ==0)  Color(0xFF7299AB) else Color(
+        0xFFB5C3C9
+    )
+
+
+}
