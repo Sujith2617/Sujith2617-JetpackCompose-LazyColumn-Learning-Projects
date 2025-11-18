@@ -9,6 +9,6 @@ class LogicViewModel : ViewModel() {
         "Pineapple","Strawberry","Watermelon","Papaya","Guava",
         "Kiwi","Lemon","Lime","Blueberry","Blackberry","Peach",
         "Plum","Pomegranate","Apricot","Lychee", "Coconut", "Dragon Fruit",
-        "Avocado", "Raspberry", "Tangerine", "Melon", "Passion Fruit"
+        "Avocado", "Raspberry", "Tangerine", "Melon", "Passion Fruit")
 
 }
