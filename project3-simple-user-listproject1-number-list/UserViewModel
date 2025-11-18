@@ -1,0 +1,30 @@
+package com.example.listobobject
+
+import androidx.lifecycle.ViewModel
+
+class UserViewModel : ViewModel() {
+
+    val users = listOf(
+        User("Sujith", 22),
+        User("Rahul", 24),
+        User("Karthik", 21),
+        User("Meera", 23),
+        User("Ananya", 20),
+        User("Joy",21),
+        User("Virat",24),
+        User("Gill",23),
+        User("Tilak",23),
+        User("Rahul",33),
+        User("Jonny",21),
+        User("Mizo",23),
+        User("Bachu",24),
+        User("Taniya",21),
+        User("Simp",23),
+        User("Anki",26),
+        User("Sharkshi",23)
+    )
+
+
+
+
+}
